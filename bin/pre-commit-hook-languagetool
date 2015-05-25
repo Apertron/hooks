@@ -1,8 +1,13 @@
 #!/bin/bash
 
 
-language_tool_dir="$HOME/LanguageTool"
+while read i; do
+    echo $i
+done
 
-pwd
+# language_tool_dir="$HOME/LanguageTool"
 
-java -jar $language_tool_dir/languagetool-commandline.jar --api --disable "WHITESPACE_RULE,EN_QUOTES" $@
+# while read i; do
+
+# do java -jar $language_tool_dir/languagetool-commandline.jar --api --disable "WHITESPACE_RULE,EN_QUOTES" $i
+# done
