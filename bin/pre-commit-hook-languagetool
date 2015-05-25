@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+language_tool_dir="$HOME/LanguageTool"
+
+pwd
+
+java -jar $language_tool_dir/languagetool-commandline.jar --api --disable "WHITESPACE_RULE,EN_QUOTES" $@

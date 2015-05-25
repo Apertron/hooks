@@ -1,0 +1,6 @@
+- id: languagetool
+  name: Lint Languages
+  description: Lint Languages
+  entry: bin/pre-commit-hook-languagetool
+  language: script
+  files: \.md$
