@@ -4,3 +4,9 @@
   entry: bin/pre-commit-hook-languagetool
   language: script
   files: \.md$
+- id: yamlcheck
+  name: Lint YAML.
+  description: Lint Languages
+  entry: bin/pre-commit-hook-yamlcheck
+  language: script
+  files: \.yaml$
