@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Requires https://github.com/Pryz/yaml-lint
+
+t=$(mktemp -d)
+
+
+for i in $@; do
+    yaml-lint $i
+done
